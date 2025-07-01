@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book - Recipes with Andean Superfoods | Tarpuy Foods</title>
+    <meta name="description" content="Download our free recipe book with delicious recipes using cushuro and tarwi. Healthy cooking with Andean superfoods.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../img/favicon.png" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="../img/logo.png" alt="Tarpuy Foods Logo" class="logo-img">
+                    <span class="logo-text">Tarpuy Foods</span>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="productos.html" class="nav-link">Products</a>
+                    <a href="recetario.html" class="nav-link active">Recipes</a>
+                    <a href="como-comprar.html" class="nav-link">How to Buy</a>
+                    
+                    <div class="language-toggle">
+                        <a href="../recetario.html" class="lang-link">🇪🇸</a>
+                        <a href="recetario.html" class="lang-link active">🇬🇧</a>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+            
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <a href="productos.html" class="mobile-nav-link">Products</a>
+                <a href="recetario.html" class="mobile-nav-link active">Recipes</a>
+                <a href="como-comprar.html" class="mobile-nav-link">How to Buy</a>
+                <div class="mobile-language-toggle">
+                    <a href="../recetario.html" class="lang-link">🇪🇸 Español</a>
+                    <a href="recetario.html" class="lang-link active">🇬🇧 English</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Tarpuy Recipe Book</h1>
+                <p class="page-subtitle">Delicious recipes with Andean superfoods</p>
+            </div>
+        </section>
+
+        <section class="recipes-section">
+            <div class="container">
+                <div class="recipes-intro">
+                    <h2 class="section-title">Healthy Cooking with Cushuro and Tarwi</h2>
+                    <p class="section-description">
+                        Discover how to incorporate these Andean superfoods into your daily cooking. 
+                        Traditional and modern recipes that preserve all nutritional value.
+                    </p>
+                </div>
+
+                <div class="recipes-grid">
+                    <div class="recipe-card">
+                        <div class="recipe-image-container">
+                            <img src="../img/recipe-cushuro-soup.jpg" alt="Cushuro Soup - Traditional Andean Recipe" class="recipe-image">
+                            <div class="recipe-time">
+                                <span class="time-icon">⏱️</span>
+                                <span class="time-text">45 min</span>
+                            </div>
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Nutritious Cushuro Soup</h3>
+                            <p class="recipe-description">
+                                A traditional Andean soup rich in proteins and minerals. 
+                                Perfect for strengthening the immune system and providing natural energy.
+                            </p>
+                            <div class="recipe-details">
+                                <span class="recipe-difficulty">🌟 Easy</span>
+                                <span class="recipe-servings">👥 4 people</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recipe-card">
+                        <div class="recipe-image-container">
+                            <img src="../img/recipe-tarwi-salad.jpg" alt="Tarwi Salad - Healthy Recipe" class="recipe-image">
+                            <div class="recipe-time">
+                                <span class="time-icon">⏱️</span>
+                                <span class="time-text">20 min</span>
+                            </div>
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Energetic Tarwi Salad</h3>
+                            <p class="recipe-description">
+                                Fresh and nutritious salad that combines tarwi with Andean vegetables. 
+                                High in plant proteins and perfect for athletes.
+                            </p>
+                            <div class="recipe-details">
+                                <span class="recipe-difficulty">🌟 Easy</span>
+                                <span class="recipe-servings">👥 2 people</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recipe-card">
+                        <div class="recipe-image-container">
+                            <img src="../img/recipe-superfood-smoothie.jpg" alt="Superfood Smoothie - Energetic Recipe" class="recipe-image">
+                            <div class="recipe-time">
+                                <span class="time-icon">⏱️</span>
+                                <span class="time-text">10 min</span>
+                            </div>
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Andean Energy Smoothie</h3>
+                            <p class="recipe-description">
+                                Revitalizing smoothie that combines cushuro powder with Amazonian fruits. 
+                                Ideal for breakfast or post-workout.
+                            </p>
+                            <div class="recipe-details">
+                                <span class="recipe-difficulty">🌟 Very Easy</span>
+                                <span class="recipe-servings">👥 1 person</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pdf-download-section">
+                    <div class="pdf-download-card">
+                        <div class="pdf-icon">📖</div>
+                        <div class="pdf-content">
+                            <h3 class="pdf-title">Complete Tarpuy Foods Recipe Book</h3>
+                            <p class="pdf-description">
+                                Download our complete recipe book with more than 15 detailed recipes, 
+                                preparation tips and nutritional information for each dish.
+                            </p>
+                            <ul class="pdf-features">
+                                <li>✅ 15+ step-by-step recipes</li>
+                                <li>✅ Complete nutritional information</li>
+                                <li>✅ Storage and preparation tips</li>
+                                <li>✅ Recipes for the whole family</li>
+                            </ul>
+                        </div>
+                        <div class="pdf-download-cta">
+                            <a href="#" class="btn-primary download-btn">
+                                <span class="download-icon">⬇️</span>
+                                Download Recipe Book PDF
+                            </a>
+                            <p class="pdf-note">Free download • 25-page PDF</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cooking-tips">
+                    <h3 class="tips-title">Tips for Cooking with Superfoods</h3>
+                    <div class="tips-grid">
+                        <div class="tip-item">
+                            <div class="tip-icon">💧</div>
+                            <h4 class="tip-title">Cushuro Hydration</h4>
+                            <p class="tip-description">Soak cushuro for 2-3 hours before cooking for better digestion</p>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-icon">🔥</div>
+                            <h4 class="tip-title">Tarwi Cooking</h4>
+                            <p class="tip-description">Cook tarwi for 30-40 minutes to eliminate natural alkaloids</p>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-icon">❄️</div>
+                            <h4 class="tip-title">Storage</h4>
+                            <p class="tip-description">Store superfoods in dry, cool places, away from light</p>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-icon">🥄</div>
+                            <h4 class="tip-title">Portions</h4>
+                            <p class="tip-description">Start with small portions to accustom your body</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Tarpuy Foods</h3>
+                    <p class="footer-text">Ancestral Andean nutrition for a healthy life.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Products</a></li>
+                        <li><a href="recetario.html">Recipes</a></li>
+                        <li><a href="como-comprar.html">How to Buy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact</h4>
+                    <p class="footer-text">📱 WhatsApp: <a href="https://wa.me/tu-numero">+51 XXX XXX XXX</a></p>
+                    <p class="footer-text">📧 Email: info@tarpuyfoods.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tarpuy Foods. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

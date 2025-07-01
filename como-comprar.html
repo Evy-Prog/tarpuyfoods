@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo Comprar - Proceso de Compra Fácil | Tarpuy Foods</title>
+    <meta name="description" content="Compra superfoods andinos fácilmente. Envíos a todo el Perú. Proceso simple: elige tu producto, contáctanos por WhatsApp y recibe en casa.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="img/logo.png" alt="Tarpuy Foods Logo" class="logo-img">
+                    <span class="logo-text">Tarpuy Foods</span>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="productos.html" class="nav-link">Productos</a>
+                    <a href="recetario.html" class="nav-link">Recetario</a>
+                    <a href="como-comprar.html" class="nav-link active">Cómo Comprar</a>
+                    
+                    <div class="language-toggle">
+                        <a href="como-comprar.html" class="lang-link active">🇪🇸</a>
+                        <a href="en/como-comprar.html" class="lang-link">🇬🇧</a>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+            
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html" class="mobile-nav-link">Inicio</a>
+                <a href="productos.html" class="mobile-nav-link">Productos</a>
+                <a href="recetario.html" class="mobile-nav-link">Recetario</a>
+                <a href="como-comprar.html" class="mobile-nav-link active">Cómo Comprar</a>
+                <div class="mobile-language-toggle">
+                    <a href="como-comprar.html" class="lang-link active">🇪🇸 Español</a>
+                    <a href="en/como-comprar.html" class="lang-link">🇬🇧 English</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">¿Cómo Comprar?</h1>
+                <p class="page-subtitle">Proceso simple y rápido para obtener tus superfoods</p>
+            </div>
+        </section>
+
+        <!-- Purchase Process Section -->
+        <section class="purchase-process">
+            <div class="container">
+                <h2 class="section-title">Proceso de Compra</h2>
+                <p class="section-description">
+                    En solo 3 pasos simples tendrás tus superfoods andinos en casa. 
+                    Proceso seguro y confiable con envíos a todo el Perú.
+                </p>
+                
+                <div class="process-steps">
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Elige tu Producto</h3>
+                            <p class="step-description">
+                                Navega por nuestros superfoods andinos y selecciona el que más te convenga. 
+                                Cushuro para proteínas y minerales, o Tarwi para fibra y aminoácidos.
+                            </p>
+                            <div class="step-action">
+                                <a href="productos.html" class="btn-secondary">Ver Productos</a>
+                            </div>
+                        </div>
+                        <div class="step-icon">🛒</div>
+                    </div>
+
+                    <div class="step-arrow">➜</div>
+
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Escríbenos por WhatsApp</h3>
+                            <p class="step-description">
+                                Contáctanos directamente por WhatsApp con el producto que deseas. 
+                                Te ayudaremos con cantidades, precios y resolveremos todas tus dudas.
+                            </p>
+                            <div class="step-action">
+                                <a href="https://wa.me/tu-numero" class="btn-whatsapp" target="_blank">
+                                    <span class="whatsapp-icon">📱</span>
+                                    Escribir por WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                        <div class="step-icon">💬</div>
+                    </div>
+
+                    <div class="step-arrow">➜</div>
+
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Recibe en Casa</h3>
+                            <p class="step-description">
+                                Enviamos tu pedido a cualquier parte del Perú. 
+                                Empaque seguro y entregas rápidas para mantener la calidad de nuestros productos.
+                            </p>
+                            <div class="step-benefits">
+                                <span class="benefit-item">🚚 Envío gratis desde S/100</span>
+                                <span class="benefit-item">📦 Empaque ecológico</span>
+                            </div>
+                        </div>
+                        <div class="step-icon">🏠</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WhatsApp CTA Section -->
+        <section class="whatsapp-cta-section">
+            <div class="container">
+                <div class="whatsapp-cta-card">
+                    <div class="whatsapp-cta-content">
+                        <h2 class="whatsapp-cta-title">¿Listo para ordenar?</h2>
+                        <p class="whatsapp-cta-description">
+                            Nuestro equipo está disponible para ayudarte con tu pedido. 
+                            Respuesta inmediata y asesoramiento personalizado.
+                        </p>
+                        <div class="whatsapp-benefits">
+                            <div class="whatsapp-benefit">
+                                <span class="benefit-icon">⚡</span>
+                                <span class="benefit-text">Respuesta inmediata</span>
+                            </div>
+                            <div class="whatsapp-benefit">
+                                <span class="benefit-icon">🎯</span>
+                                <span class="benefit-text">Asesoramiento personalizado</span>
+                            </div>
+                            <div class="whatsapp-benefit">
+                                <span class="benefit-icon">📞</span>
+                                <span class="benefit-text">Atención de lunes a sábado</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="whatsapp-cta-action">
+                        <a href="https://wa.me/tu-numero" class="btn-whatsapp-large" target="_blank">
+                            <span class="whatsapp-icon-large">📱</span>
+                            <div class="whatsapp-text">
+                                <span class="whatsapp-main-text">Escribir por WhatsApp</span>
+                                <span class="whatsapp-sub-text">+51 XXX XXX XXX</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Payment Methods Section -->
+        <section class="payment-methods">
+            <div class="container">
+                <h2 class="section-title">Métodos de Pago Aceptados</h2>
+                <p class="section-description">Paga de la forma que más te convenga, con total seguridad</p>
+                
+                <div class="payment-grid">
+                    <div class="payment-item">
+                        <div class="payment-icon">💳</div>
+                        <h3 class="payment-title">Tarjetas de Crédito/Débito</h3>
+                        <p class="payment-description">Visa, Mastercard, American Express</p>
+                    </div>
+                    <div class="payment-item">
+                        <div class="payment-icon">📱</div>
+                        <h3 class="payment-title">Pagos Digitales</h3>
+                        <p class="payment-description">Yape, Plin, BCP, Interbank</p>
+                    </div>
+                    <div class="payment-item">
+                        <div class="payment-icon">🏪</div>
+                        <h3 class="payment-title">Pago en Tienda</h3>
+                        <p class="payment-description">Agentes bancarios, farmacias</p>
+                    </div>
+                    <div class="payment-item">
+                        <div class="payment-icon">🏦</div>
+                        <h3 class="payment-title">Transferencia Bancaria</h3>
+                        <p class="payment-description">Todos los bancos principales</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shipping Info Section -->
+        <section class="shipping-info">
+            <div class="container">
+                <h2 class="section-title">Información de Envíos</h2>
+                <div class="shipping-grid">
+                    <div class="shipping-card">
+                        <h3 class="shipping-title">🚚 Envíos a Todo el Perú</h3>
+                        <ul class="shipping-list">
+                            <li>Lima: 1-2 días hábiles</li>
+                            <li>Provincias: 3-5 días hábiles</li>
+                            <li>Zonas rurales: 5-7 días hábiles</li>
+                        </ul>
+                    </div>
+                    <div class="shipping-card">
+                        <h3 class="shipping-title">📦 Costos de Envío</h3>
+                        <ul class="shipping-list">
+                            <li>Lima: S/ 15</li>
+                            <li>Provincias: S/ 25</li>
+                            <li>Envío gratis desde S/ 100</li>
+                        </ul>
+                    </div>
+                    <div class="shipping-card">
+                        <h3 class="shipping-title">🛡️ Garantía de Calidad</h3>
+                        <ul class="shipping-list">
+                            <li>Productos frescos garantizados</li>
+                            <li>Empaque seguro y ecológico</li>
+                            <li>Reembolso si no estás satisfecho</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Tarpuy Foods</h3>
+                    <p class="footer-text">Nutrición andina ancestral para una vida saludable.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Enlaces</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="recetario.html">Recetario</a></li>
+                        <li><a href="como-comprar.html">Cómo Comprar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contacto</h4>
+                    <p class="footer-text">📱 WhatsApp: <a href="https://wa.me/tu-numero">+51 XXX XXX XXX</a></p>
+                    <p class="footer-text">📧 Email: info@tarpuyfoods.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tarpuy Foods. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

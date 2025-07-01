@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarpuy Foods - Superfoods Andinas | Nutrición ancestral para tu vida</title>
+    <meta name="description" content="Descubre los superfoods andinos como cushuro y tarwi. Nutrición ancestral del Perú para una vida saludable. Envíos a todo el país.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <!-- Logo -->
+                <div class="nav-logo">
+                    <img src="img/logo.png" alt="Tarpuy Foods Logo" class="logo-img">
+                    <span class="logo-text">Tarpuy Foods</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link active">Inicio</a>
+                    <a href="productos.html" class="nav-link">Productos</a>
+                    <a href="recetario.html" class="nav-link">Recetario</a>
+                    <a href="como-comprar.html" class="nav-link">Cómo Comprar</a>
+                    
+                    <!-- Language Toggle -->
+                    <div class="language-toggle">
+                        <a href="index.html" class="lang-link active">🇪🇸</a>
+                        <a href="en/index.html" class="lang-link">🇬🇧</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html" class="mobile-nav-link active">Inicio</a>
+                <a href="productos.html" class="mobile-nav-link">Productos</a>
+                <a href="recetario.html" class="mobile-nav-link">Recetario</a>
+                <a href="como-comprar.html" class="mobile-nav-link">Cómo Comprar</a>
+                <div class="mobile-language-toggle">
+                    <a href="index.html" class="lang-link active">🇪🇸 Español</a>
+                    <a href="en/index.html" class="lang-link">🇬🇧 English</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Bienvenidos a Tarpuy Foods</h1>
+                <h2 class="hero-subtitle">Nutrición andina para tu vida</h2>
+                <p class="hero-description">Andean nutrition for your life</p>
+                <p class="hero-text">Descubre los superfoods ancestrales de los Andes peruanos. Nutrición pura y natural que ha alimentado a nuestras culturas por generaciones.</p>
+                <a href="https://wa.me/tu-numero" class="cta-button" target="_blank">
+                    <span class="whatsapp-icon">📱</span>
+                    Contáctanos por WhatsApp
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="img/hero-superfoods.jpg" alt="Superfoods andinos - Cushuro y Tarwi" class="hero-img">
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">¿Por qué elegir Tarpuy Foods?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🌿</div>
+                        <h3 class="feature-title">100% Natural</h3>
+                        <p class="feature-description">Superfoods cultivados en los Andes siguiendo métodos ancestrales, sin químicos ni conservantes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3 class="feature-title">Envíos a todo el Perú</h3>
+                        <p class="feature-description">Llevamos la nutrición andina directamente a tu hogar en todo el territorio nacional.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💪</div>
+                        <h3 class="feature-title">Alta Proteína</h3>
+                        <p class="feature-description">Nuestros superfoods son fuente excepcional de proteínas vegetales y aminoácidos esenciales.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Preview -->
+        <section class="products-preview">
+            <div class="container">
+                <h2 class="section-title">Nuestros Superfoods</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="img/cushuro-preview.jpg" alt="Cushuro - Superfood andino" class="product-image">
+                        <h3 class="product-title">Cushuro</h3>
+                        <p class="product-description">Rico en proteínas y minerales, ideal para fortalecer tu sistema inmunológico.</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/tarwi-preview.jpg" alt="Tarwi - Superfood andino" class="product-image">
+                        <h3 class="product-title">Tarwi</h3>
+                        <p class="product-description">Leguminosa andina con alto contenido proteico y aminoácidos esenciales.</p>
+                    </div>
+                </div>
+                <div class="products-cta">
+                    <a href="productos.html" class="btn-secondary">Ver todos los productos</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Tarpuy Foods</h3>
+                    <p class="footer-text">Nutrición andina ancestral para una vida saludable.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Enlaces</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="recetario.html">Recetario</a></li>
+                        <li><a href="como-comprar.html">Cómo Comprar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contacto</h4>
+                    <p class="footer-text">📱 WhatsApp: <a href="https://wa.me/tu-numero">+51 999 999 999</a></p>
+                    <p class="footer-text">📧 Email: info@tarpuyfoods.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tarpuy Foods. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

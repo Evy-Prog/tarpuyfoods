@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Cushuro y Tarwi | Tarpuy Foods</title>
+    <meta name="description" content="Conoce los beneficios nutricionales del cushuro y tarwi, superfoods andinos ricos en proteínas y minerales. Productos 100% naturales del Perú.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="img/logo.png" alt="Tarpuy Foods Logo" class="logo-img">
+                    <span class="logo-text">Tarpuy Foods</span>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="productos.html" class="nav-link active">Productos</a>
+                    <a href="recetario.html" class="nav-link">Recetario</a>
+                    <a href="como-comprar.html" class="nav-link">Cómo Comprar</a>
+                    
+                    <div class="language-toggle">
+                        <a href="productos.html" class="lang-link active">🇪🇸</a>
+                        <a href="en/productos.html" class="lang-link">🇬🇧</a>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+            
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html" class="mobile-nav-link">Inicio</a>
+                <a href="productos.html" class="mobile-nav-link active">Productos</a>
+                <a href="recetario.html" class="mobile-nav-link">Recetario</a>
+                <a href="como-comprar.html" class="mobile-nav-link">Cómo Comprar</a>
+                <div class="mobile-language-toggle">
+                    <a href="productos.html" class="lang-link active">🇪🇸 Español</a>
+                    <a href="en/productos.html" class="lang-link">🇬🇧 English</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Nuestros Superfoods</h1>
+                <p class="page-subtitle">Descubre la nutrición ancestral de los Andes</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products-section" id="beneficios">
+            <div class="container">
+                <h2 class="section-title">Cushuro y Tarwi</h2>
+                <p class="section-description">Dos superfoods excepcionales que han sido la base de la alimentación andina por siglos, ahora disponibles para nutrir tu vida moderna.</p>
+                
+                <div class="products-detailed">
+                    <!-- Cushuro Card -->
+                    <div class="product-detailed-card">
+                        <div class="product-image-container">
+                            <img src="img/cushuro-400x400.jpg" alt="Cushuro - Superfood andino rico en proteínas" class="product-detailed-image">
+                        </div>
+                        <div class="product-detailed-content">
+                            <h3 class="product-detailed-title">Cushuro</h3>
+                            <p class="product-detailed-description">
+                                El cushuro es un alga de agua dulce que crece en las lagunas andinas a más de 3,500 metros de altura. 
+                                Es considerado uno de los superfoods más nutritivos del mundo.
+                            </p>
+                            
+                            <h4 class="benefits-title">Beneficios Nutricionales:</h4>
+                            <ul class="benefits-list">
+                                <li><strong>Alto en proteínas:</strong> Contiene hasta 60% de proteína de alta calidad con todos los aminoácidos esenciales</li>
+                                <li><strong>Rico en hierro:</strong> Excelente fuente de hierro biodisponible para prevenir la anemia</li>
+                                <li><strong>Vitaminas del complejo B:</strong> Especialmente B12, esencial para vegetarianos y veganos</li>
+                                <li><strong>Antioxidantes naturales:</strong> Protege las células del daño oxidativo y el envejecimiento</li>
+                                <li><strong>Calcio y fósforo:</strong> Fortalece huesos y dientes de manera natural</li>
+                            </ul>
+                            
+                            <div class="product-cta">
+                                <a href="como-comprar.html" class="btn-primary">Comprar Cushuro</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarwi Card -->
+                    <div class="product-detailed-card">
+                        <div class="product-image-container">
+                            <img src="img/tarwi-400x400.jpg" alt="Tarwi - Leguminosa andina alta en proteínas" class="product-detailed-image">
+                        </div>
+                        <div class="product-detailed-content">
+                            <h3 class="product-detailed-title">Tarwi</h3>
+                            <p class="product-detailed-description">
+                                El tarwi o chocho es una leguminosa andina que ha sido cultivada por más de 1,500 años. 
+                                Es conocida como la "soya andina" por su excepcional perfil nutricional.
+                            </p>
+                            
+                            <h4 class="benefits-title">Beneficios Nutricionales:</h4>
+                            <ul class="benefits-list">
+                                <li><strong>Proteína completa:</strong> 40-50% de proteína con perfil de aminoácidos superior a la soya</li>
+                                <li><strong>Fibra dietética:</strong> Mejora la digestión y regula el colesterol naturalmente</li>
+                                <li><strong>Ácidos grasos omega:</strong> Contiene omega-3 y omega-6 beneficiosos para el corazón</li>
+                                <li><strong>Minerales esenciales:</strong> Rico en magnesio, potasio, zinc y manganeso</li>
+                                <li><strong>Bajo índice glucémico:</strong> Ideal para diabéticos y control de peso</li>
+                            </ul>
+                            
+                            <div class="product-cta">
+                                <a href="como-comprar.html" class="btn-primary">Comprar Tarwi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comparison Section -->
+                <div class="comparison-section">
+                    <h3 class="comparison-title">¿Por qué son superiores a otros superfoods?</h3>
+                    <div class="comparison-grid">
+                        <div class="comparison-item">
+                            <h4>Adaptación a la altura</h4>
+                            <p>Crecen en condiciones extremas de los Andes, lo que concentra sus nutrientes</p>
+                        </div>
+                        <div class="comparison-item">
+                            <h4>Tradición milenaria</h4>
+                            <p>Utilizados por civilizaciones andinas que los consideraban alimentos sagrados</p>
+                        </div>
+                        <div class="comparison-item">
+                            <h4>Sostenibilidad</h4>
+                            <p>Cultivos resistentes que no agotan el suelo y requieren menos agua</p>
+                        </div>
+                        <div class="comparison-item">
+                            <h4>Biodisponibilidad</h4>
+                            <p>Nutrientes fácilmente absorbidos por el organismo humano</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Tarpuy Foods</h3>
+                    <p class="footer-text">Nutrición andina ancestral para una vida saludable.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Enlaces</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="recetario.html">Recetario</a></li>
+                        <li><a href="como-comprar.html">Cómo Comprar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contacto</h4>
+                    <p class="footer-text">📱 WhatsApp: <a href="https://wa.me/tu-numero">+51 XXX XXX XXX</a></p>
+                    <p class="footer-text">📧 Email: info@tarpuyfoods.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tarpuy Foods. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
