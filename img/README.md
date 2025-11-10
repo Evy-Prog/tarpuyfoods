@@ -16,6 +16,7 @@ This folder contains all the images used in the Tarpuy Foods website.
 - **recipe-cushuro-soup.jpg** (350x250px) - Cushuro soup recipe image
 - **recipe-tarwi-salad.jpg** (350x250px) - Tarwi salad recipe image
 - **recipe-superfood-smoothie.jpg** (350x250px) - Superfood smoothie recipe image
+- **cushuropolvo-400x400.jpg** (400x400px) - Detailed cushuro en polvo product image
 
 ## Image Guidelines:
 - Use high-quality, professional photographs
